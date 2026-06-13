@@ -2,7 +2,6 @@ import shutil
 import pytest
 import time
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 
 @pytest.fixture(scope="module")
 def browser():
