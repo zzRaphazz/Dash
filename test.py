@@ -22,7 +22,7 @@ def test_paginas():
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
     try:
-        url = "http://127.0.0.1:8080"
+        url = "http://127.0.0.1:8081"
 
         driver.get(url)
         time.sleep(2)

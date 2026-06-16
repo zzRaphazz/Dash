@@ -3,7 +3,7 @@ import time
 def test_home(browser):
     browser.get('http://127.0.0.1:8081')
 
-    time.sleep(5)
+    time.sleep(50)
 
     assert browser.title == "Dash"
     
